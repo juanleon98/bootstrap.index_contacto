@@ -66,3 +66,21 @@ form {
     margin-left: 100px;
 }
 
+.texto { 
+    margin-top: 70px;
+}
+
+
+/* css de pagina de servicios */
+
+.section1 { 
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.fix { 
+    height: 170px;
+    width: 125px;
+}
