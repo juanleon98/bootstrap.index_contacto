@@ -1,3 +1,6 @@
+
+
+/* INDEX */
 .img-fluid { 
     border-radius: 35%;
 }
@@ -28,8 +31,12 @@
 .border { 
         border: 04px solid black
     }
+     
+/* INDEX */
 
+    /*carrusel*/
 
+/*carrusel */
 
 
 #carrusel2 { 
@@ -56,19 +63,8 @@
     
     }
 
-#doctor_p {
-padding-top: 65px;
+    /*carrusel del footer */
 
-}
-
-
-form {
-    margin-left: 100px;
-}
-
-.texto { 
-    margin-top: 70px;
-}
 
 
 /* css de pagina de servicios */
@@ -83,4 +79,38 @@ form {
 .fix { 
     height: 170px;
     width: 125px;
+}
+
+
+/* barra de navegacion */
+a:hover {
+
+    background-color: dimgrey;   
+    border-radius: 20%;
+    color: white;
+}
+
+.prueba { 
+
+    animation-name: prueba;
+    animation-duration: 4s;
+    animation-iteration-count: initial;
+
+}
+
+@keyframes prueba {
+    0% {transform: rotate(60deg);}
+    25% {transform: rotate(120deg);}
+    50% {transform: rotate(180deg);}
+    75% {transform: rotate(240deg);}
+    85% {transform: rotate(300deg);}
+    100% {transform: rotate(360deg);}
+}
+
+.boton:hover {
+
+    width: 130px;
+    background-color: cadetblue;
+    transition:  1s;
+    /* barra de navegacion */
 }
